@@ -4,7 +4,7 @@ import 'package:flutterapp/pages/home.dart';
 import 'package:flutterapp/pages/loading.dart';
 
 void main() => runApp(MaterialApp(
-  initialRoute: '/home',
+  initialRoute: '/',
   routes: {
     '/': (context) =>Loading(),
     '/home': (context) =>Home(),
